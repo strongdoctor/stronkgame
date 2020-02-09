@@ -13,7 +13,7 @@ namespace stronkgame
     {
         public int PlacementId { get; set; }
         public string ColorCode { get; set; }
-        public string XPosition { get; set; }
-        public string YPosition { get; set; }
+        public int XPosition { get; set; }
+        public int YPosition { get; set; }
     }
 }
